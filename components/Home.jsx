@@ -120,7 +120,7 @@ export default function Home() {
 
       setOutputLink(
         // `${domainInput}/${datas.data.shortCode}`
-        `vnd.youtube://www.youtube.com/redirect?event=comments&redir_token=${datas.data.youtubeToken}&q=${urlInput}&html_redirect=1`
+        `https//www.youtube.com/redirect?event=comments&redir_token=${datas.data.youtubeToken}&q=${urlInput}&html_redirect=1`
         
       );
 
